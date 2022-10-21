@@ -24,6 +24,9 @@ def plot_sample(image_files, image_class, class_names, image_files_list):
 
 
 def preprocess(if_plot = False):
+    """
+    reads image and prepares dataloader
+    """
     print('Preprocessing data')
     class_names = sorted(x for x in os.listdir(data_dir)
                      if os.path.isdir(os.path.join(data_dir, x)))
