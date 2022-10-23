@@ -2,6 +2,10 @@ import os
 from monai.apps import download_and_extract
 
 
+"""
+downloading sample medmnist,to dowload full 2d medmnist file visit  :'https:// '
+"""
+
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 resource = "https://github.com/Project-MONAI/MONAI-extra-test-data/releases/download/0.8.1/MedNIST.tar.gz"
